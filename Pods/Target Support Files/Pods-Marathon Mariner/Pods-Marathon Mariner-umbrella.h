@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_RunnerVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_RunnerVersionString[];
+FOUNDATION_EXPORT double Pods_Marathon_MarinerVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_Marathon_MarinerVersionString[];
 

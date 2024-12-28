@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		271FC77AD8BDDD8842035430 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752E8727E0E5D732A7AF7B57 /* Pods_Runner.framework */; };
+		65C081F3C0B86DEF0AFAA57C /* Pods_Marathon_Mariner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF9262F5538F42E1697F0580 /* Pods_Marathon_Mariner.framework */; };
 		8F48BCF72A68635A00EDDB6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F48BCF62A68635A00EDDB6E /* AppDelegate.swift */; };
 		8F48BCF92A68635A00EDDB6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F48BCF82A68635A00EDDB6E /* SceneDelegate.swift */; };
 		8F48BCFB2A68635A00EDDB6E /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F48BCFA2A68635A00EDDB6E /* ProfileController.swift */; };
@@ -26,7 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		752E8727E0E5D732A7AF7B57 /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14231A8C5682DD32A8607BE8 /* Pods-Marathon Mariner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marathon Mariner.debug.xcconfig"; path = "Target Support Files/Pods-Marathon Mariner/Pods-Marathon Mariner.debug.xcconfig"; sourceTree = "<group>"; };
+		49237682B9D5D5DECF4B9B4D /* Pods-Marathon Mariner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marathon Mariner.release.xcconfig"; path = "Target Support Files/Pods-Marathon Mariner/Pods-Marathon Mariner.release.xcconfig"; sourceTree = "<group>"; };
 		8F48BCF32A68635A00EDDB6E /* Marathon Mariner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marathon Mariner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F48BCF62A68635A00EDDB6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F48BCF82A68635A00EDDB6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +47,7 @@
 		8FD837F82A8055D30077F9CF /* CollectionFishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionFishViewController.swift; sourceTree = "<group>"; };
 		CC19F979E4313D0B58ABB21B /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		D792FB462DFD9F77085CAE9F /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+		DF9262F5538F42E1697F0580 /* Pods_Marathon_Mariner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marathon_Mariner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				271FC77AD8BDDD8842035430 /* Pods_Runner.framework in Frameworks */,
+				65C081F3C0B86DEF0AFAA57C /* Pods_Marathon_Mariner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +65,7 @@
 		19417D6F3370762D0CEE2C5E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				752E8727E0E5D732A7AF7B57 /* Pods_Runner.framework */,
+				DF9262F5538F42E1697F0580 /* Pods_Marathon_Mariner.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -73,6 +75,8 @@
 			children = (
 				CC19F979E4313D0B58ABB21B /* Pods-Runner.debug.xcconfig */,
 				D792FB462DFD9F77085CAE9F /* Pods-Runner.release.xcconfig */,
+				14231A8C5682DD32A8607BE8 /* Pods-Marathon Mariner.debug.xcconfig */,
+				49237682B9D5D5DECF4B9B4D /* Pods-Marathon Mariner.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -217,15 +221,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Marathon Mariner/Pods-Marathon Mariner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Marathon Mariner/Pods-Marathon Mariner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Marathon Mariner/Pods-Marathon Mariner-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4A8EA35DE2F448ED88966F2F /* [CP] Check Pods Manifest.lock */ = {
@@ -243,7 +247,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Runner-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Marathon Mariner-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -410,7 +414,7 @@
 		};
 		8F48BD082A68635A00EDDB6E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC19F979E4313D0B58ABB21B /* Pods-Runner.debug.xcconfig */;
+			baseConfigurationReference = 14231A8C5682DD32A8607BE8 /* Pods-Marathon Mariner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -440,7 +444,7 @@
 		};
 		8F48BD092A68635A00EDDB6E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D792FB462DFD9F77085CAE9F /* Pods-Runner.release.xcconfig */;
+			baseConfigurationReference = 49237682B9D5D5DECF4B9B4D /* Pods-Marathon Mariner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
