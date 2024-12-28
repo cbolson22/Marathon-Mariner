@@ -1,6 +1,6 @@
 platform :ios, '9.0'
 
-target 'Runner' do
+target 'Marathon Mariner' do
   use_frameworks!
 
   # Pods for Runner
